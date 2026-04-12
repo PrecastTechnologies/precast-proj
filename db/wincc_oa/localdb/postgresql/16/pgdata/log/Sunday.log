@@ -1,0 +1,29 @@
+2026-04-12 12:03:27.571 EET [21572] LOG:  starting PostgreSQL 16.10, compiled by Visual C++ build 1944, 64-bit
+2026-04-12 12:03:27.572 EET [21572] LOG:  listening on IPv6 address "::", port 15432
+2026-04-12 12:03:27.572 EET [21572] LOG:  listening on IPv4 address "0.0.0.0", port 15432
+2026-04-12 12:03:27.576 EET [21572] LOG:  listening on Unix socket "C:/Users/User/AppData/Local/.winccoa/.s.PGSQL.15432"
+2026-04-12 12:03:27.616 EET [228] LOG:  database system was shut down at 2026-04-12 12:03:26 EET
+2026-04-12 12:03:27.633 EET [21572] LOG:  database system is ready to accept connections
+2026-04-12 12:03:28.416 EET [21572] LOG:  could not reserve shared memory region (addr=000001E0492B0000) for child 00000000000014D8: error code 487
+2026-04-12 12:03:28.608 EET [21572] LOG:  received fast shutdown request
+2026-04-12 12:03:28.609 EET [21572] LOG:  aborting any active transactions
+2026-04-12 12:03:28.618 EET [21572] LOG:  background worker "logical replication launcher" (PID 3328) exited with exit code 1
+2026-04-12 12:03:28.619 EET [4652] LOG:  shutting down
+2026-04-12 12:03:28.620 EET [4652] LOG:  checkpoint starting: shutdown immediate
+2026-04-12 12:03:28.765 EET [4652] LOG:  checkpoint complete: wrote 1017 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.037 s, sync=0.107 s, total=0.146 s; sync files=350, longest=0.003 s, average=0.001 s; distance=4773 kB, estimate=4773 kB; lsn=0/1A20CC0, redo lsn=0/1A20CC0
+2026-04-12 12:03:28.821 EET [21572] LOG:  database system is shut down
+2026-04-12 12:03:29.530 EET [4272] LOG:  starting PostgreSQL 16.10, compiled by Visual C++ build 1944, 64-bit
+2026-04-12 12:03:29.531 EET [4272] LOG:  listening on IPv6 address "::", port 15432
+2026-04-12 12:03:29.531 EET [4272] LOG:  listening on IPv4 address "0.0.0.0", port 15432
+2026-04-12 12:03:29.536 EET [4272] LOG:  listening on Unix socket "C:/Users/User/AppData/Local/.winccoa/.s.PGSQL.15432"
+2026-04-12 12:03:29.580 EET [20904] LOG:  database system was shut down at 2026-04-12 12:03:28 EET
+2026-04-12 12:03:29.599 EET [4272] LOG:  database system is ready to accept connections
+2026-04-12 12:03:39.882 EET [4272] LOG:  received SIGHUP, reloading configuration files
+2026-04-12 12:06:14.751 EET [4272] LOG:  received fast shutdown request
+2026-04-12 12:06:14.754 EET [4272] LOG:  aborting any active transactions
+2026-04-12 12:06:14.754 EET [23812] FATAL:  terminating connection due to administrator command
+2026-04-12 12:06:14.759 EET [4272] LOG:  background worker "logical replication launcher" (PID 4788) exited with exit code 1
+2026-04-12 12:06:14.779 EET [12788] LOG:  shutting down
+2026-04-12 12:06:14.780 EET [12788] LOG:  checkpoint starting: shutdown immediate
+2026-04-12 12:06:14.833 EET [12788] LOG:  checkpoint complete: wrote 207 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.022 s, sync=0.029 s, total=0.054 s; sync files=94, longest=0.002 s, average=0.001 s; distance=1709 kB, estimate=1709 kB; lsn=0/1BCC1C8, redo lsn=0/1BCC1C8
+2026-04-12 12:06:14.858 EET [4272] LOG:  database system is shut down

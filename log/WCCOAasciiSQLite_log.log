@@ -1,0 +1,13 @@
+WCCOAasciiSQLite(0), 2026.04.12 12:03:40.841, SYS,  INFO,        1, Manager Start, PROJ, precast, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCOAasciiSQLite(0), 2026.04.12 12:03:40.841, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ LAPTOP-SF9TOL9F:4897
+WCCOAasciiSQLite(0), 2026.04.12 12:03:40.851, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.876, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.876, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ LAPTOP-SF9TOL9F:4998
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.885, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.908, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.909, SYS,  INFO,      103, User names/passwords initialized
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.914, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.914, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.915, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.916, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAasciiSQLite(1), 2026.04.12 12:03:40.916, SYS,  INFO,        2, Manager Stop
