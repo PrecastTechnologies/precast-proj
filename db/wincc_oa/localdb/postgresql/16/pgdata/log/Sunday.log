@@ -27,3 +27,9 @@
 2026-04-12 12:06:14.780 EET [12788] LOG:  checkpoint starting: shutdown immediate
 2026-04-12 12:06:14.833 EET [12788] LOG:  checkpoint complete: wrote 207 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.022 s, sync=0.029 s, total=0.054 s; sync files=94, longest=0.002 s, average=0.001 s; distance=1709 kB, estimate=1709 kB; lsn=0/1BCC1C8, redo lsn=0/1BCC1C8
 2026-04-12 12:06:14.858 EET [4272] LOG:  database system is shut down
+2026-04-12 12:06:27.526 EET [5528] LOG:  starting PostgreSQL 16.10, compiled by Visual C++ build 1944, 64-bit
+2026-04-12 12:06:27.527 EET [5528] LOG:  listening on IPv6 address "::", port 15432
+2026-04-12 12:06:27.527 EET [5528] LOG:  listening on IPv4 address "0.0.0.0", port 15432
+2026-04-12 12:06:27.532 EET [5528] LOG:  listening on Unix socket "C:/Users/User/AppData/Local/.winccoa/.s.PGSQL.15432"
+2026-04-12 12:06:27.571 EET [8452] LOG:  database system was shut down at 2026-04-12 12:06:14 EET
+2026-04-12 12:06:27.587 EET [5528] LOG:  database system is ready to accept connections
