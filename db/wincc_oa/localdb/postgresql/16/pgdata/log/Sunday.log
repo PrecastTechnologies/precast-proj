@@ -33,3 +33,22 @@
 2026-04-12 12:06:27.532 EET [5528] LOG:  listening on Unix socket "C:/Users/User/AppData/Local/.winccoa/.s.PGSQL.15432"
 2026-04-12 12:06:27.571 EET [8452] LOG:  database system was shut down at 2026-04-12 12:06:14 EET
 2026-04-12 12:06:27.587 EET [5528] LOG:  database system is ready to accept connections
+2026-04-12 12:11:27.578 EET [20008] LOG:  checkpoint starting: time
+2026-04-12 12:11:36.067 EET [20008] LOG:  checkpoint complete: wrote 80 buffers (0.0%); 1 WAL file(s) added, 0 removed, 0 recycled; write=8.426 s, sync=0.021 s, total=8.490 s; sync files=50, longest=0.003 s, average=0.001 s; distance=286 kB, estimate=286 kB; lsn=0/1C142D0, redo lsn=0/1C13BA8
+2026-04-12 12:16:27.083 EET [20008] LOG:  checkpoint starting: time
+2026-04-12 12:16:31.800 EET [20008] LOG:  checkpoint complete: wrote 44 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.698 s, sync=0.013 s, total=4.718 s; sync files=27, longest=0.003 s, average=0.001 s; distance=246 kB, estimate=282 kB; lsn=0/1C515F0, redo lsn=0/1C515B8
+2026-04-12 12:17:15.156 EET [5528] LOG:  could not reserve shared memory region (addr=0000021E153B0000) for child 0000000000001440: error code 487
+2026-04-12 12:21:27.809 EET [20008] LOG:  checkpoint starting: time
+2026-04-12 12:21:35.135 EET [20008] LOG:  checkpoint complete: wrote 68 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.301 s, sync=0.016 s, total=7.327 s; sync files=31, longest=0.002 s, average=0.001 s; distance=301 kB, estimate=301 kB; lsn=0/1C9CC30, redo lsn=0/1C9CBF8
+2026-04-12 12:26:27.147 EET [20008] LOG:  checkpoint starting: time
+2026-04-12 12:26:32.323 EET [20008] LOG:  checkpoint complete: wrote 48 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.152 s, sync=0.017 s, total=5.176 s; sync files=30, longest=0.005 s, average=0.001 s; distance=237 kB, estimate=295 kB; lsn=0/1CD82C0, redo lsn=0/1CD8288
+2026-04-12 12:31:27.339 EET [20008] LOG:  checkpoint starting: time
+2026-04-12 12:31:31.165 EET [20008] LOG:  checkpoint complete: wrote 36 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.808 s, sync=0.011 s, total=3.827 s; sync files=25, longest=0.001 s, average=0.001 s; distance=193 kB, estimate=284 kB; lsn=0/1D087B0, redo lsn=0/1D08778
+2026-04-12 12:32:41.272 EET [5528] LOG:  received fast shutdown request
+2026-04-12 12:32:41.273 EET [5528] LOG:  aborting any active transactions
+2026-04-12 12:32:41.273 EET [22940] FATAL:  terminating connection due to administrator command
+2026-04-12 12:32:41.279 EET [5528] LOG:  background worker "logical replication launcher" (PID 12280) exited with exit code 1
+2026-04-12 12:32:41.284 EET [20008] LOG:  shutting down
+2026-04-12 12:32:41.285 EET [20008] LOG:  checkpoint starting: shutdown immediate
+2026-04-12 12:32:41.296 EET [20008] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.002 s, total=0.012 s; sync files=6, longest=0.001 s, average=0.001 s; distance=12 kB, estimate=257 kB; lsn=0/1D0B9A0, redo lsn=0/1D0B9A0
+2026-04-12 12:32:41.317 EET [5528] LOG:  database system is shut down

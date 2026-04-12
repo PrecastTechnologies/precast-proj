@@ -25,3 +25,21 @@ WCCILpmon    (1), 2026.04.12 12:06:30.552, SYS,  INFO,        1, Manager Start, 
 WCCILpmon    (1), 2026.04.12 12:06:30.770, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "precast" -pmonIndex 6 
 WCCILpmon    (1), 2026.04.12 12:06:30.988, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "precast" -pmonIndex 7 -m gedi
 WCCILpmon    (1), 2026.04.12 12:06:41.390, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.04.12 12:32:40.929, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.04.12 12:32:40.930, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 12:32:40.931, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 12:32:40.931, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 12:32:42.127, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 12:32:42.343, SYS,  INFO,       17/pmon, Stopping Manager WCCILdataSQLite(0) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 12:32:44.370, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 12:32:45.301, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.04.12 12:32:45.303, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.04.12 13:09:08.085, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.04.12 13:09:08.219, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "precast" -pmonIndex 1 
+WCCILpmon    (1), 2026.04.12 13:09:08.437, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "precast" -pmonIndex 2 
+WCCILpmon    (1), 2026.04.12 13:09:09.883, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "precast" -pmonIndex 3 
+WCCILpmon    (1), 2026.04.12 13:09:11.265, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "precast" -pmonIndex 4 
+WCCILpmon    (1), 2026.04.12 13:09:12.773, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "precast" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.04.12 13:09:13.096, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "precast" -pmonIndex 6 
+WCCILpmon    (1), 2026.04.12 13:09:13.424, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "precast" -pmonIndex 7 -m gedi
+WCCILpmon    (1), 2026.04.12 13:09:15.171, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
